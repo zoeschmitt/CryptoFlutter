@@ -1,11 +1,9 @@
 import 'dart:async';
-import 'dart:html';
 
 import 'package:bloc/bloc.dart';
 import 'package:data_moving/models/coin_model.dart';
 import 'package:data_moving/repositories/crypto_repository.dart';
 import 'package:equatable/equatable.dart';
-import 'package:flutter/semantics.dart';
 import 'package:meta/meta.dart';
 
 part 'crypto_event.dart';
